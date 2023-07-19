@@ -190,3 +190,103 @@ nav>ul {
     color: #ff42a5;
     text-decoration: none;
 }
+
+/* instant play */
+.instant-play{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+
+
+.instant-play p {
+    padding-right: 80rem;
+    padding-right: 15rem;
+    padding-top: 2rem;
+}
+
+.instant-play-img {
+    position: relative;
+}
+.big-img {
+    width: 100%;
+}
+.float-img {
+    width: 50%;
+    position: absolute;
+    left: -25%;
+    bottom: -10%;
+}
+/* Game Genre  */
+.game-genre {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 120px 180px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-primary {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 50px;
+    background-color: #FFF;
+    color: var(--title-color);
+    font-size: var(--third-font-seize);
+    font-weight: 600;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+.btn-primary:hover {
+    border: 2px solid var(--pink);
+    color: var(--pink);
+}
+.btn-primary img {
+    margin-right: 10px;
+}
+/* Footer Styles */
+.footer {
+    padding: 120px 20rem;
+    background: var(--title-color);
+}
+.footer-logo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+}
+.footer-logo h3 {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+.footer > ul {
+    list-style: none;
+}
+.footer-desc {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: #FFF;
+    font-size: var(--third-font-seize);
+}
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 15rem;
+}
+.privacy-list li{
+    color: var(--desc-color);
+    font-size: 1.6rem;
+}
+.footer p {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+/* media responsive */
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+}
